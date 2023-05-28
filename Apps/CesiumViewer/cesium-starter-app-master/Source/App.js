@@ -5,7 +5,7 @@ var point = viewer.entities;
 point.add({
     position:Cesium.Cartesian3.fromDegrees(-75.59777,40.03883),
     point:{
-        pixelsize:10,
+        pixelsize:50,
         color:Cesium.Color.YELLOW
     }
 });

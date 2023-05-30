@@ -1,4 +1,5 @@
-var viewer = new Cesium.Viewer("cesiumContainer");
+<script>
+      var viewer = new Cesium.Viewer("cesiumContainer");
 
       var point = viewer.entities.add({
       name:"福井市", //レイヤ名
@@ -9,3 +10,6 @@ var viewer = new Cesium.Viewer("cesiumContainer");
             color : Cesium.Color.BLUE //ポイントの色
         }
     });
+
+    viewer.zoomTo(viewer.entities);　//レイヤにズーム
+    </script>

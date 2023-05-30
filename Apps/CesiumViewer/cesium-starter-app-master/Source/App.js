@@ -1,11 +1,11 @@
-var cesiumWidget = new Cesium.Viewer('cesiumContainer');
-//add a point
-var point = viewer.entities;
+var viewer = new Cesium.Viewer("cesiumContainer");
 
-point.add({
-    position:Cesium.Cartesian3.fromDegrees(-75.59777,40.03883),
-    point:{
-        pixelsize:50,
-        color:Cesium.Color.YELLOW
-    }
-});
+      var point = viewer.entities.add({
+      name:"福井市", //レイヤ名
+      description:"ここは福井市です。",　//レイヤの説明
+        position : Cesium.Cartesian3.fromDegrees(136.223554,36.061957,0), //経度,緯度,高さ
+        point : {
+            pixelSize : 10, //ポイントのサイズ
+            color : Cesium.Color.BLUE //ポイントの色
+        }
+    });

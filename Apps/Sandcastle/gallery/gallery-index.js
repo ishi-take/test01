@@ -427,11 +427,11 @@ const gallery_demos = [{
   "img": "Google Earth Enterprise.jpg"
 }, {
   "name": "Google Photorealistic 3D Tiles",
-  "isNew": true,
+  "isNew": false,
   "img": "Google Photorealistic 3D Tiles.jpg"
 }, {
   "name": "Google Photorealistic 3D Tiles with Building Insert",
-  "isNew": true,
+  "isNew": false,
   "img": "Google Photorealistic 3D Tiles with Building Insert.jpg"
 }, {
   "name": "HTML Overlays",
@@ -726,4 +726,4 @@ const gallery_demos = [{
   "isNew": false,
   "img": "Z-Indexing Geometry.jpg"
 }];
-const has_new_gallery_demos = true;
+const has_new_gallery_demos = false;

@@ -1,5 +1,9 @@
+// (function() {
+//    "use strict";
+
 // Cesium ionのアクセストークン
-//Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MDljNDJmZS01OTc5LTQxMWQtODc5ZC1kNTEzOTUyNjNhZDAiLCJpZCI6MTMwNTUyLCJpYXQiOjE2ODQ4MTU1NDF9.qTowPjwpNdcB2f4WQthPcCWxrZ-J9EYbN-bQzcmDG6k';
+// Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZDQ4YThlNy05MGRiLTRmMTItOGExMy0zOTVmMDRlOWYxNjIiLCJpZCI6MTMwNTUyLCJpYXQiOjE2Nzk3ODc5NzB9.2s_IRnq5u_tJXLPb8v1aVd6KP9oUEiX3ZmtXUCNarO8';
+// var viewer = new Cesium.Viewer("cesium");
 
 // Cesium ViewerをcesiumContainerというIDのHTML要素に初期化
 const viewer = new Cesium.Viewer('cesiumContainer', {

@@ -1,4 +1,5 @@
-      var viewer = new Cesium.Viewer("cesiumContainer");
+
+var viewer = new Cesium.Viewer("cesiumContainer");
 
       var point = viewer.entities.add({
       name:"福井市", //レイヤ名

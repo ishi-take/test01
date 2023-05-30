@@ -1,5 +1,5 @@
 // Cesium ionのアクセストークン
-// Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MDljNDJmZS01OTc5LTQxMWQtODc5ZC1kNTEzOTUyNjNhZDAiLCJpZCI6MTMwNTUyLCJpYXQiOjE2ODQ4MTU1NDF9.qTowPjwpNdcB2f4WQthPcCWxrZ-J9EYbN-bQzcmDG6k';
+//Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MDljNDJmZS01OTc5LTQxMWQtODc5ZC1kNTEzOTUyNjNhZDAiLCJpZCI6MTMwNTUyLCJpYXQiOjE2ODQ4MTU1NDF9.qTowPjwpNdcB2f4WQthPcCWxrZ-J9EYbN-bQzcmDG6k';
 
 // Cesium ViewerをcesiumContainerというIDのHTML要素に初期化
 const viewer = new Cesium.Viewer('cesiumContainer', {

@@ -2,19 +2,25 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+        />
         <title>サンプル</title>
         <link href="style.css" rel="stylesheet" />
         <!-- Include the CesiumJS JavaScript and CSS files -->
         <script src="../../Build/CesiumUnminified/Cesium.js"></script>
+        <link href="widgets.css" rel="stylesheet" />
 
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="CesiumViewer.css" media="screen" />
-        <style>
+        <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
+        <!-- <link rel="stylesheet" href="CesiumViewer.css" media="screen" /> -->
+        <!-- <style>
         @import url(cesium-starter-app-master/ThirdParty/Cesium/Widgets/widgets.css);
+
         html, body, #cesiumContainer {
           width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
       }
-    </style>
+    </style> -->
     </head>
     <body>
     <body style="background: #000"> 
@@ -23,7 +29,7 @@
         <div id="cesiumContainer"></div>
         <button id="fly">東京駅にジャンプ！</button>
         <script src="CesiumViewer.js" type="module"></script>
-        <script src="main.js" type="module"></script>
+        <script src="main.js"></script>
 
     </body>
 </html>

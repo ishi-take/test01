@@ -1,4 +1,3 @@
-<script>
       var viewer = new Cesium.Viewer("cesiumContainer");
 
       var point = viewer.entities.add({
@@ -12,4 +11,3 @@
     });
 
     viewer.zoomTo(viewer.entities);　//レイヤにズーム
-    </script>

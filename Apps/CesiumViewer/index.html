@@ -11,6 +11,8 @@
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
     />
     <title>Cesium Viewer</title>
+    <script src="../../Build/CesiumUnminified/Cesium.js"></script>
+    
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="CesiumViewer.css" media="screen" />
     <style>
@@ -20,26 +22,11 @@
       }
     </style>
   </head>
-  <body style="background: #000">
-    <div id="cesiumContainer" class="fullWindow"></div>
+  <body style="background: #000"> 
+    <div id="cesiumContainer" class="fullWindow"></div> 
     <div id="loadingIndicator" class="loadingIndicator"></div>
     <script src="CesiumViewer.js" type="module"></script>
-    '<script src="cesium-starter-app-master/Source/App.js"></script>
-    
-    <script>
-      var viewer = new Cesium.Viewer("cesiumContainer");
+    <script src="cesium-starter-app-master/Source/App.js"></script>
 
-      var point = viewer.entities.add({
-      name:"福井市", //レイヤ名
-      description:"ここは福井市です。",　//レイヤの説明
-        position : Cesium.Cartesian3.fromDegrees(136.223554,36.061957,0), //経度,緯度,高さ
-        point : {
-            pixelSize : 10, //ポイントのサイズ
-            color : Cesium.Color.BLUE //ポイントの色
-        }
-    });
-
-    viewer.zoomTo(viewer.entities);　//レイヤにズーム
-    </script>
   </body>
 </html>
